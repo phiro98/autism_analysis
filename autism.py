@@ -59,3 +59,6 @@ y_prd1 = clfsvc.predict(X_test)
 svcmse = mean_squared_error(list(y_test), list(y_prd))
 svcrmse = np.sqrt(mse)
 print("SVM RMSE = ", svcrmse)
+
+
+
